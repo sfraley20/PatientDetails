@@ -7,9 +7,15 @@ public class PatientsDetails {
 
         String patientName= "Stacey Manson";
 
+        String appDate = "5/10/22";
+
+        String contactNumber = "5558003456";
+
         boolean hasInsurance= false;
 
         double temp = 102.2;
+
+        double copay = 20.00;
 
         int numVisits= 5;
 
@@ -22,6 +28,8 @@ public class PatientsDetails {
         System.out.println("Body temprature: " + temp);
 
         System.out.println("Number of visits:" + numVisits);
+
+        System.out.println("Copay amount: 0" + (copay + "0"));
 
 
 
