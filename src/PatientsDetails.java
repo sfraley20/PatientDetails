@@ -5,28 +5,25 @@ public class PatientsDetails {
     public static void main(String[] args) {
         Scanner keybd = new Scanner(System.in);
 
-        boolean hasInsurance;
+        String patientName= "Stacey Manson";
 
-        boolean hasInsurance = false;
+        boolean hasInsurance= false;
 
-        String patientName;
+        double temp = 102.2;
 
-
-        String tempature;
-
-        String numberOfVisits;
+        int numVisits= 5;
 
         System.out.println("Patient Details: ");
 
-        System.out.println("Name: " );
+        System.out.println("Name: " +patientName);
 
-        patientName = keybd.nextLine();
+        System.out.println("Does the patient have insurance: " + hasInsurance);
 
-        System.out.println("Does the patient have insurance " + false);
+        System.out.println("Body temprature: " + temp);
 
-        System.out.println("Body temprature: ");
+        System.out.println("Number of visits:" + numVisits);
 
-        tempature = keybd.nextLine();
+
 
 
     }
